@@ -6,7 +6,7 @@ Feel free to fork, clone, and improve this documentation on [GitHub](https://git
 
 ### Libraries
 
-Some official libraries have been developed:
+Some official libraries are available to easily get you started:
 
 | Name | Language |
 | ----- | ------- |
