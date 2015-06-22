@@ -10,4 +10,5 @@
    * [Extend blocks](plugins/blocks.md)
    * [Hooks](plugins/hooks.md)
    * Extend filters
+   * Extend assets
 
