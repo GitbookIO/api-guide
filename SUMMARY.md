@@ -7,5 +7,5 @@
 * [Rousseau](rousseau/README.md)
 * [OPDS](opds/README.md)
 * [Plugins](plugins/README.md)
-   * Extend blocks
+   * [Extend blocks](plugins/blocks.md)
 
