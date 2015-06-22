@@ -6,4 +6,5 @@
 * [Authors](authors/README.md)
 * [Rousseau](rousseau/README.md)
 * [OPDS](opds/README.md)
+* Plugins
 
