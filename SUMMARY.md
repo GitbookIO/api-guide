@@ -9,6 +9,6 @@
 * [Plugins](plugins/README.md)
    * [Extend blocks](plugins/blocks.md)
    * Extend filters
-   * [Hooks](plugins/hooks.md)
    * Extend assets
+   * [Hooks](plugins/hooks.md)
 
