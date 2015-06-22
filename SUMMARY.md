@@ -8,5 +8,5 @@
 * [OPDS](opds/README.md)
 * [Plugins](plugins/README.md)
    * [Extend blocks](plugins/blocks.md)
-   * Hooks
+   * [Hooks](plugins/hooks.md)
 
