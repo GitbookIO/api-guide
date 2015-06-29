@@ -8,7 +8,8 @@
 * [OPDS](opds/README.md)
 * [Plugins](plugins/README.md)
    * [Extend blocks](plugins/blocks.md)
-   * Extend filters
-   * Extend assets
+   * [Extend filters](plugins/filters.md)
+   * [Extend assets](plugins/assets.md)
    * [Hooks](plugins/hooks.md)
+   * [Context and APIs](plugins/api.md)
 
