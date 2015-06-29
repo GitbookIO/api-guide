@@ -6,7 +6,7 @@ A GitBook plugin is a node package published on NPM that follow a defined conven
 
 #### package.json
 
-The `package.json` contains general informations about your plugin (name, version, description, ...):
+The `package.json` contains general information about your plugin (name, version, description, ...):
 
 ```
 {
