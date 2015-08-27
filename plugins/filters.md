@@ -8,7 +8,7 @@ Filters are essentially functions that can be applied to variables. They are cal
 {{ foo | replace("foo", "bar") | capitalize }}
 ```
 
-### Define a filter
+### Defining a new filter
 
 Plugins can extend filters by defining custom functions in their entry point under the `filters` scope.
 
