@@ -25,7 +25,20 @@ The **package name** must begin with `gitbook-plugin-` and the **package engines
 
 #### index.js
 
-The `index.js` is main entry point of your plugin.
+The `index.js` is main entry point of your plugin:
+
+```js
+module.exports = {
+    // Map of hooks
+    hooks: {},
+    
+    // Map of new blocks
+    blocks: {},
+    
+    // Map of new filters
+    filters: {}
+};
+```
 
 ### Publish your plugin
 
