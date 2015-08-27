@@ -29,3 +29,28 @@ The filter `hello` can then be used in the book:
 ```
 {{ "Aaron"|hello }}, how are you?
 ```
+
+### Handling block arguments
+
+Arguments can be passed to filters:
+
+```
+Hello {{ "Samy"|fullName("Pesse", man=true}} }}
+```
+
+Arguments are passed to the function, named-arguments are passed as a last argument (object).
+
+```js
+module.exports = {
+    filters: {
+        fullName: function(firstName, lastName, kwargs) {
+            var name = firstName + ' ' + lastName;
+            
+            if (kwargs.man) name = "Mr" + name;
+            else name = "Mrs" + name;
+            
+            return name;
+        }
+    }
+};
+```
