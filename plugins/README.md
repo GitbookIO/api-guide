@@ -2,7 +2,7 @@
 
 A GitBook plugin is a node package published on NPM that follow a defined convention.
 
-### Structure
+## Structure
 
 #### package.json
 
@@ -40,7 +40,7 @@ module.exports = {
 };
 ```
 
-### Publish your plugin
+## Publish your plugin
 
 GitBook plugins are published and installed from [NPM](https://www.npmjs.com).
 
