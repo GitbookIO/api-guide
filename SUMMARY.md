@@ -11,4 +11,5 @@
    * [Extend filters](plugins/filters.md)
    * [Extend assets](plugins/assets.md)
    * [Hooks](plugins/hooks.md)
+   * Context and APIs
 
