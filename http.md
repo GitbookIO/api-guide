@@ -4,10 +4,10 @@ This describes the resources that make up the official GitBook API. If you have 
 
 #### Schema
 
-All API access is over HTTPS, and accessed through `www.gitbook.com/api/` . All data is sent and received as **JSON**.
+All API access is over HTTPS, and accessed through `https://api.gitbook.com/` . All data is sent and received as **JSON**.
 
 ```raw
-$ curl -i https://www.gitbook.com/api/author/gitbookio
+$ curl -i https://api.gitbook.com/author/gitbookio
 
 HTTP/1.1 200 OK
 Server: Cowboy
@@ -29,7 +29,7 @@ There is currently only one way to authenticate through GitBook API: **Basic Aut
 Requests that require authentication will return `404 Not Found`, instead of `403 Forbidden`, in some places. This is to prevent the accidental leakage of private books to unauthorized users.
 
 ```
-$ curl -u "username:token" https://www.gitbook.com/api/books/
+$ curl -u "username:token" https://api.gitbook.com/books/
 ```
 
 #### Error Format
