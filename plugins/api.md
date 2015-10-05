@@ -22,9 +22,11 @@ Blocks and filters have access to the same context, this context is bind to the 
 }
 ```
 
+For example a filter or block function can access the current book using: `this.book`.
+
 #### Context for Hooks
 
-Hooks only have access to the `<Book>` instance.
+Hooks only have access to the `<Book>` instance using `this.book`.
 
 #### Book instance
 
