@@ -22,17 +22,34 @@ Blocks and filters have access to the same context, this context is bind to the 
 }
 ```
 
+For example a filter or block function can access the current book using: `this.book`.
+
 #### Context for Hooks
 
-Hooks only have access to the `<Book>` instance.
+Hooks only have access to the `<Book>` instance using `this.book`.
 
 #### Book instance
 
 The `Book` class is the central point of GitBook, it centralize all access methods. This class is defined in [book.js](https://github.com/GitbookIO/gitbook/blob/master/lib/book.js).
 
-```js
-// Access to book's configuration (book.json)
-var title = book.config.get('title');
-var websiteStylesheet = book.config.get('styles.website', 'default_value.css');
+##### book.config.get(key, default)
 
+Access to book's configuration (book.json)
+
+```js
+// Without default value
+var title = book.config.get('title');
+
+// With a default value
+var websiteStylesheet = book.config.get('styles.website', 'default_value.css');
+```
+
+##### book.formatString(type, str)
+
+Process a markuped string
+
+```javascript
+// Format some markdown string
+book.formatString('markdown', 'This is **markdown**')
+    .then(function(html) { ... });
 ```
