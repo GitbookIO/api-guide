@@ -1,1 +1,5 @@
-{}
+{
+    "variables": {
+        "apihost": "https://api.gitbook.com"
+    }
+}
