@@ -20,3 +20,20 @@ module.exports = {
     }
 };
 ```
+
+### Extending ebook assets
+
+It's being done in the same way that for website, using `ebook`. Only CSS files can be listed, JavaScript files are not supported.
+
+```js
+module.exports = {
+    ebook: {
+        assets: './assets/ebook',
+        css: [
+            'mystyle.css'
+        ]
+    }
+};
+```
+
+
