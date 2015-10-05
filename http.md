@@ -2,7 +2,18 @@
 
 This describes the resources that make up the official GitBook API. If you have any problems or requests please [contact support](https://www.gitbook.com/contact).
 
-#### Schema
+### Libraries
+
+Some official libraries are available to easily get you started:
+
+| Name | Language |
+| ----- | ------- |
+| [node-gitbook-api](https://github.com/GitbookIO/node-gitbook-api) | Node.js |
+| [go-gitbook-api](https://github.com/GitbookIO/go-gitbook-api) | Go (Golang) | 
+
+
+
+### Schema
 
 All API access is over HTTPS, and accessed through `https://api.gitbook.com/` . All data is sent and received as **JSON**.
 
@@ -22,7 +33,7 @@ Via: 1.1 vegur
 ```
 
 
-#### Authentication
+### Authentication
 
 There is currently only one way to authenticate through GitBook API: **Basic Auth**.
 
@@ -32,7 +43,7 @@ Requests that require authentication will return `404 Not Found`, instead of `40
 $ curl -u "username:token" https://api.gitbook.com/books/
 ```
 
-#### Error Format
+### Error Format
 
 Error are returned as JSON: 
 
@@ -43,7 +54,7 @@ Error are returned as JSON:
 }
 ```
 
-#### Pagination
+### Pagination
 
 Requests that return multiple items will be paginated to 30 items by default.
 
