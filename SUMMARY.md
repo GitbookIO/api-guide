@@ -7,10 +7,10 @@
    * [Rousseau](rousseau/README.md)
    * [OPDS](opds/README.md)
 * [Plugins](plugins/README.md)
+   * Configuration Manifest
    * [Extend blocks](plugins/blocks.md)
    * [Extend filters](plugins/filters.md)
    * [Extend assets](plugins/assets.md)
    * [Hooks](plugins/hooks.md)
    * [Context and APIs](plugins/api.md)
-   * Configuration Manifest
 
