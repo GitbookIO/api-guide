@@ -6,7 +6,7 @@ A GitBook plugin is a node package published on NPM that follow a defined conven
 
 #### package.json
 
-The `package.json` contains general information about your plugin (name, version, description, ...):
+The `package.json` is a manifest format for describing Node.js modules. GitBook plugins are built on top of Node modules. It declares dependencies, version, ownership, and other information required to run a plugin in GitBook. This document describes the schema in detail.
 
 ```
 {
@@ -25,7 +25,7 @@ The **package name** must begin with `gitbook-plugin-` and the **package engines
 
 #### index.js
 
-The `index.js` is main entry point of your plugin:
+The `index.js` is main entry point of your plugin runtime:
 
 ```js
 module.exports = {
@@ -42,7 +42,7 @@ module.exports = {
 
 ## Publish your plugin
 
-GitBook plugins are published and installed from [NPM](https://www.npmjs.com).
+GitBook plugins required to be published on [NPM](https://www.npmjs.com).
 
 To publish a new plugin, you need to create an account on [npmjs.com](https://www.npmjs.com) then publish it from the command line:
 
