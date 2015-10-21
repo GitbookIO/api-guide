@@ -17,3 +17,4 @@ We're always happy to help out with your plugins, applications or any other ques
 ### Contribute to this documentation
 
 You can contribute to improve this documentation on [GitHub](https://github.com/GitbookIO/api-guide) by signaling issues or proposing changes.
+
