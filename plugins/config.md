@@ -3,7 +3,7 @@
 A plugin manifest `package.json` can also contain details about the required configuration.
 Starting with GitBook **2.5.0**, the schema will be used to valid configuration during build.
 
-The configuration schema is defined in `gitbook.config`:
+The configuration schema is defined in the `gitbook` field of the `package.json`:
 
 ```js
 {
@@ -13,28 +13,23 @@ The configuration schema is defined in `gitbook.config`:
         "gitbook": ">=2.5.0
     },
     "gitbook": {
-        "config": [
-            {
-                "key": "myConfigKey",
+        "properties": {
+            "myConfigKey": {
                 "type": "string",
-                "value": "it's the default value",
+                "default": "it's the default value",
                 "description": "It defines my awesome config!"
             }
-        ]
+        }
     }
 }
 ```
 
-### Schema
+This field follow the [JSON-Schema](http://json-schema.org) guidelines.
 
-`gitbook.config` should be a list of objects with the following properties:
+Examples:
 
-|  | Description | Required? |
-| -- | -- | -- |
-| **key** | Unique key for the configuration | Yes |
-| **type** | Type of the configuration, it can be `string`, `array`, or `number`; default is `string` | No |
-| **description** | Help message shown in the editor and during validation | No |
-| **value** | Default value used during build | No |
+- [sitemap](https://github.com/GitbookIO/plugin-sitemap/blob/master/package.json)
+- [fontsettings](https://github.com/GitbookIO/plugin-fontsettings/blob/master/package.json)
 
 
 
