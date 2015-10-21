@@ -2,7 +2,7 @@
 
 This documentation is intended to get you up-and-running with the GitBook APIs. We’ll cover everything you need to know, from authentication, to manipulating results, to combining results with other services.
 
-### HTTP and Platform APIs
+### REST and Platform APIs
 
 This describes the resources that make up the official GitBook Platform API. If you have any problems or requests please [contact support](https://www.gitbook.com/contact).
 
