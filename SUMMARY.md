@@ -5,7 +5,7 @@
    * [Books](books/README.md)
    * [Authors](authors/README.md)
    * [Rousseau](rousseau/README.md)
-   * [OPDS](opds/README.md)
+* [OPDS](opds/README.md)
 * [Plugins](plugins/README.md)
    * [Configuration Manifest](plugins/config.md)
    * [Extend blocks](plugins/blocks.md)
