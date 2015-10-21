@@ -1,7 +1,7 @@
 # Summary
 
 * [Overview](README.md)
-* [HTTP APIs](http.md)
+* [REST APIs](http.md)
    * [Books](books/README.md)
    * [Authors](authors/README.md)
    * [Rousseau](rousseau/README.md)
