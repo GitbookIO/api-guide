@@ -4,12 +4,15 @@ This documentation is intended to get you up-and-running with the GitBook APIs. 
 
 ### REST and Platform APIs
 
-This describes the resources that make up the official GitBook Platform API. If you have any problems or requests please [contact support](https://www.gitbook.com/contact).
+The REST APIs provide programmatic access to read and write GitBook data. List books, edit content, proofread text, and more. The REST API identifies users using basic auth; responses are available in JSON.
 
-### Third party plugins
+### Third-party plugins
 
 This documentation also cover how to create, develop and publish a plugin for the GitBook toolchain.
 
+### Help and Support
+
+We're always happy to help out with your plugins, applications or any other questions you might have. You can ask a question or signal an issue on the following contact form at [gitbook.com/contact](https://www.gitbook.com/contact).
 
 ### Contribute to this documentation
 
