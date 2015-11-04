@@ -12,3 +12,16 @@ By default, webhooks are only subscribed to all events. The available events are
 | ---- | ----------- |
 | `all` | Any time any event is triggered (Wildcard Event). |
 | `publish` | Content of the book has been updated. |
+
+### Delivery headers
+
+HTTP requests made to your webhook’s configured URL endpoint will contain several special headers:
+
+| Header | Description |
+| ------ | ----------- |
+| `X-GitBook-Event` | Name of the event that triggered this delivery. |
+| `X-GitBook-Signature` | HMAC hex digest of the payload, using the hook’s secret as the key (if configured). |
+| `X-GitBook-Delivery` | Unique ID for this delivery. |
+
+
+Also, the `User-Agent` for the requests will have the prefix `GitBook/`.
