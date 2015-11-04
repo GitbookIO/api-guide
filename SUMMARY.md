@@ -13,5 +13,5 @@
    * [Extend assets](plugins/assets.md)
    * [Hooks](plugins/hooks.md)
    * [Context and APIs](plugins/api.md)
-* Webhooks
+* [Webhooks](webhooks/README.md)
 
