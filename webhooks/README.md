@@ -29,3 +29,24 @@ HTTP requests made to your webhook’s configured URL endpoint will contain seve
 
 
 Also, the `User-Agent` for the requests will have the prefix `GitBook/`.
+
+### Example delivery
+
+```
+POST /payload HTTP/1.1
+
+Host: localhost:4567
+X-GitBook-Delivery: 72d3162e81ab4c9367dc0958
+X-GitBook-Event: publish
+X-GitBook-Signature: sha1=6adfb183a4a2c94a2f92dab5ade762a47889a5a1
+User-Agent: GitBook/10.2.0
+Content-Type: application/json
+Content-Length: 6615
+
+{
+  "payload": {
+    ...
+  }
+}
+```
+
