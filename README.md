@@ -14,6 +14,8 @@ This documentation also cover how to create, develop and publish a plugin for th
 
 We're always happy to help out with your plugins, applications or any other questions you might have. You can ask a question or signal an issue on the following contact form at [gitbook.com/contact](https://www.gitbook.com/contact).
 
+You can also leave comments in the documentation itself :)
+
 ### Contribute to this documentation
 
 You can contribute to improve this documentation on [GitHub](https://github.com/GitbookIO/api-guide) by signaling issues or proposing changes.
