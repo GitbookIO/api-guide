@@ -4,7 +4,7 @@ Webhooks allow you to build or set up integrations which subscribe to certain ev
 
 ### Example of Integrations
 
-- [https://slack-service.gitbook.com](https://slack-service.gitbook.com)
+- [Slack Notifications](https://github.com/GitbookIO/services-slack)
 
 ### Events
 
