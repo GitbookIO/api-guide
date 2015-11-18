@@ -42,6 +42,30 @@ POST https://rousseau.gitbook.com/document
 
 ```
 POST https://rousseau.gitbook.com/words
+```
 
-{ "words": ["Hello", "World"] }
+###### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| `words` | `array[string]` | List of words to spellcheck |
+
+
+###### Reponse
+
+```js
+[
+    {
+        "word":"helo",
+        "correct":false,
+        "suggestions": [
+            "hole", "help",
+            "helot","hello",
+            "halo","hero",
+            "hell","held",
+            "helm","he lo",
+            "he-lo","Heloise"
+        ]
+    }
+]
 ```
