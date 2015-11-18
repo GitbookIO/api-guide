@@ -8,15 +8,25 @@ List books for the authenticated user. This includes books from organizations th
 GET /books/
 ```
 
-You can include only books created by the authenticated user:
+#### List authenticated user books
+
+List books created by the authenticated user.
 
 ```
 GET /books/author
 ```
 
-List all public books
+#### List user books
 
-This provides a dump of every public repository, in the order that they were created.
+List books created by a specific user
+
+```
+GET /author/:username/books
+```
+
+#### List all public books
+
+This provides a dump of every public book, in the order that they were created.
 
 ```
 GET /books/all
