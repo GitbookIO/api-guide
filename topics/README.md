@@ -30,3 +30,9 @@ GET /topics
     "page": 0
 }
 ```
+
+#### Get specific topic
+
+```
+GET /topic/:id
+```
