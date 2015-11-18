@@ -2,8 +2,16 @@
 
 #### Get details about an author
 
-AN API method is available to get information about an user or an organization:
+Return details about a specific author:
 
 ```
 GET /author/:username
+```
+
+#### Avatar for an author
+
+Redirect to the avatar for a specific author:
+
+```
+GET /author/:username/avatar
 ```
