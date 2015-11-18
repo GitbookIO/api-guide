@@ -13,3 +13,20 @@ GET /topics
 | `q` | `string` | The search keywords, as well as any qualifiers. |
 
 
+###### Response
+
+```js
+{
+    "list": [
+        {
+            "id": "programming",
+            "name": "Programming",
+            "books": 320
+        }
+        ...
+    ],
+    "total": 76,
+    "limit": 10,
+    "page": 0
+}
+```
