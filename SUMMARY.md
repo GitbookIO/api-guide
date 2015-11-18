@@ -5,7 +5,7 @@
    * [Books](books/README.md)
    * [Authors](authors/README.md)
    * [Rousseau](rousseau/README.md)
-   * Topics
+   * [Topics](topics/README.md)
 * [Webhooks](webhooks/README.md)
 * [OPDS](opds/README.md)
 * [Plugins](plugins/README.md)
