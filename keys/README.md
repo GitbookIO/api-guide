@@ -2,6 +2,20 @@
 
 Access keys allow non-collaborator to access a private book.
 
+#### Create an access key
+
+```
+POST /book/:author/:book/keys
+```
+
+###### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| `label` | `string` | Label to identify the key |
+| `key` | `string` | Private key |
+
+
 #### List keys for a book
 
 ```
@@ -37,8 +51,22 @@ GET /book/:author/:book/keys/
 GET /book/:author/:book/keys/:id
 ```
 
-#### Create an access key
+#### Edit an access key
 
 ```
-POST /book/:author/:book/keys
+PATCH /book/:author/:book/keys/:id
+```
+
+###### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| `label` | `string` | Label to identify the key |
+
+
+
+#### Remove an access key 
+
+```
+DELETE /book/:author/:book/keys/:id
 ```
