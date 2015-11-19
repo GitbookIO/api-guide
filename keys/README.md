@@ -36,3 +36,9 @@ GET /book/:author/:book/keys/
 ```
 GET /book/:author/:book/keys/:id
 ```
+
+#### Create an access key
+
+```
+POST /book/:author/:book/keys
+```
