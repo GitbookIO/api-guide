@@ -32,6 +32,7 @@ GET /book/:author/:book/keys/
             "id": "564c97a917c24e09ddd8b765",
             "label": "For Aaron",
             "key": "aaron_private_key",
+            "active": true,
             "dates": {
                 "created": "2015-11-19T12:22:27.765Z",
                 "updated": "2015-11-19T12:22:27.765Z"
@@ -62,7 +63,7 @@ PATCH /book/:author/:book/keys/:id
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | `label` | `string` | Label to identify the key |
-
+| `active` | `boolean` | Enable/Disable this key |
 
 
 #### Remove an access key 
