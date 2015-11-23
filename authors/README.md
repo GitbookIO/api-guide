@@ -15,3 +15,11 @@ Redirect to the avatar for a specific author:
 ```
 GET /author/:username/avatar
 ```
+
+#### Books published by  an author
+
+List books created by a specific author:
+
+```
+GET /author/:username/books
+```
