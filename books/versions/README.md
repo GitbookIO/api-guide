@@ -1,5 +1,9 @@
 # Versions
 
+The versions API can be used to list available versions of a book (branches, tags or commits).
+
+Plugin [versions](https://plugins.gitbook.com/plugin/versions) can be used to add a version chooser in your books.
+
 #### List branches for a book
 
 
