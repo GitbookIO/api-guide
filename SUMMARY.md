@@ -6,9 +6,9 @@
    * [Authors](authors/README.md)
    * [Topics](topics/README.md)
    * [Versions](books/versions/README.md)
+   * Content
    * [Access Keys](books/keys/README.md)
    * [Rousseau](rousseau/README.md)
-   * Content
 * [Webhooks](webhooks/README.md)
 * [OPDS](opds/README.md)
 * [Plugins](plugins/README.md)
