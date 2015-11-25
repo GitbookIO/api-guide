@@ -6,7 +6,7 @@
    * [Authors](authors/README.md)
    * [Topics](topics/README.md)
    * [Versions](books/versions/README.md)
-   * [Content](books/content/README.md)
+   * [Contents](books/contents/README.md)
    * [Access Keys](books/keys/README.md)
    * [Rousseau](rousseau/README.md)
 * [Webhooks](webhooks/README.md)
