@@ -2,6 +2,7 @@
 
 * [Overview](README.md)
 * [REST APIs](http.md)
+   * Authentication
    * [Books](books/README.md)
    * [Authors](authors/README.md)
    * [Topics](topics/README.md)
@@ -9,7 +10,6 @@
    * [Contents](books/contents/README.md)
    * [Access Keys](books/keys/README.md)
    * [Rousseau](rousseau/README.md)
-   * Authentication
 * [Webhooks](webhooks/README.md)
 * [OPDS](opds/README.md)
 * [Plugins](plugins/README.md)
