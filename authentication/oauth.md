@@ -8,6 +8,15 @@ All developers need to [register their application](https://www.gitbook.com/sett
 GET https://api.gitbook.com/oauth/authorize?response_type=code&redirect_uri=<CALLBACK_URL>&client_id=<CLIENT_ID>
 ```
 
+
+###### Parameters
+
+| Name | Type | Description |
+| -- | -- | -- |
+| `client_id` | `string` | **Required**. The client ID you received from GitBook when you registered. |
+| `redirect_uri` | `string` | **Required**. The URL in your app where users will be sent after authorization.  |
+
+
 ### 2. GitBook redirects back to your site
 
 If the user accepts your request, GitBook redirects back to your site with a temporary code in a `code` parameter.
