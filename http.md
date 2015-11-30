@@ -32,17 +32,6 @@ Via: 1.1 vegur
 { ... }
 ```
 
-
-### Authentication
-
-There is currently only one way to authenticate through GitBook API: **Basic Auth**.
-
-Requests that require authentication will return `404 Not Found`, instead of `403 Forbidden`, in some places. This is to prevent the accidental leakage of private books to unauthorized users.
-
-```
-$ curl -u "username:token" https://api.gitbook.com/books/
-```
-
 ### Error Format
 
 Error are returned as JSON: 

@@ -2,6 +2,9 @@
 
 * [Overview](README.md)
 * [REST APIs](http.md)
+   * [Authentication](authentication/README.md)
+       * [OAuth](authentication/oauth.md)
+       * [Basic Authentication](authentication/basic.md)
    * [Books](books/README.md)
    * [Authors](authors/README.md)
    * [Topics](topics/README.md)
