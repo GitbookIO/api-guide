@@ -34,6 +34,7 @@ POST https://api.gitbook.com/oauth/access_token
 | `client_id` | `string` | **Required**. The client ID you received from GitBook when you registered. |
 | `client_secret` | `string` | **Required**. The client secret you received from GitBook when you registered. |
 | `code` | `string` | **Required**. The code you received as a response to Step 1. |
+| `grant_type` | `string` | **Required**. `authorization_code` to exchange an oauth code |
 
 ###### Response
 
@@ -42,6 +43,8 @@ By default, the response will take the following form:
 ````
 access_token=e72e16c7e42f292c6912e7710c838347ae178b4a&token_type=bearer
 ```
+
+`access_token` can also be returned as JSON.
 
 ### 3. Use the access token to access the API
 
