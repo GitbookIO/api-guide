@@ -51,11 +51,11 @@ access_token=e72e16c7e42f292c6912e7710c838347ae178b4a&token_type=bearer
 Include it in the Authorization header
 
 ```
-Authorization: token OAUTH-TOKEN
+Authorization: Bearer OAUTH-TOKEN
 ```
 
 For example, in curl you can set the Authorization header like this:
 
 ```
-$ curl -H "Authorization: token OAUTH-TOKEN" https://api.gitbook.com/account
+$ curl -H "Authorization: Bearer OAUTH-TOKEN" https://api.gitbook.com/account
 ```
