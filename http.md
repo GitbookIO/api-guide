@@ -59,3 +59,25 @@ Paginated results will be returned with information about the page context:
     total: 0
 }
 ```
+
+
+### Root Endpoint
+
+You can issue a GET request to the root endpoint to get details about the instance:
+
+```
+curl https://api.gitbook.com
+```
+
+###### Results
+
+```js
+{
+    "type":"public",
+    "version":"11.7.6",
+    "urls":{
+        "main":"https://www.gitbook.com/",
+        "api":"https://api.gitbook.com/"
+    }
+}
+```
