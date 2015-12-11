@@ -12,6 +12,7 @@
    * [Contents](books/contents/README.md)
    * [Access Keys](books/keys/README.md)
    * [Rousseau](rousseau/README.md)
+   * Enterprise
 * [Webhooks](webhooks/README.md)
 * [OPDS](opds/README.md)
 * [Plugins](plugins/README.md)
