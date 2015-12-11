@@ -17,11 +17,11 @@ curl https://gitbook.mycompany.com/api/
 
 ```js
 {
-    "type":"enterprise",
-    "version":"11.7.6",
+    "type": "enterprise",
+    "version": "11.7.6",
     "urls":{
-        "main":"https://gitbook.mycompany.com/",
-        "api":"https://gitbook.mycompany.com/api/"
+        "main": "https://gitbook.mycompany.com/",
+        "api": "https://gitbook.mycompany.com/api/"
     }
 }
 ```
