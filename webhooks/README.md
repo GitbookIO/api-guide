@@ -16,6 +16,8 @@ By default, webhooks are only subscribed to all events. The available events are
 | ---- | ----------- |
 | `all` | Any time any event is triggered (Wildcard Event). |
 | `publish` | Content of the book has been updated. |
+| `thread` | Any time a Discussion is opened, closed, or reopened. |
+| `thread_comment` | Any time a Discussion or Pull Request is commented on. |
 
 ### Delivery headers
 
